@@ -19,44 +19,59 @@ div {
 	margin-left: 200px;
 }
 
-.Square1 {
+#Square1 {
 	background-color: blue;
 	height: 500px;
-	width: 500px;
+	width: 600px;
 	position: relative;
 }
 
-.Square2 {
+#Square2 {
 	background-color:orange;
 	height: 400px;
-	width:400px;
-	top: 40px;
-	left: 40px;
-	position:absolute;
+	width:500px;
+	top:10%;
+	left: 8%;
+	position: absolute;
 }
 
-.Square3 {
+#Square3 {
 	background-color:red;
 	height:300px;
-	width:300px;
-	top: 70px;
-	left: 70px;
+	width:400px;
+	top: 20%;
+	left: 16%;
 	position: absolute;
 }
 
-.Square4 {
+#Square4 {
 	background-color:purple;
 	height: 200px;
-	width: 200px;
-	top: 100px;
-	left: 100px;
+	width: 300px;
+	top: 30%;
+	left: 24%;
 	position: absolute;
 }
 
-.Square5 {
+#rec1, #rec2{
+	width: 1000px;
+	height:50px;
 	background-color:green;
-	height: 100px;
-	width:100px;
-	top:;
 }
+
+#Square {
+	width:300px;
+	height:200px;
+	background-color: yellow;
+	position:absolute;
+	margin-left: 350px;
+	margin-top: 50px;
+}
+
+#rect2 {
+	position: relative;
+	margin-top: 250px;
+}
+	
+
 
