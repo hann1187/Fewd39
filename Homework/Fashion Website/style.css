@@ -1,0 +1,66 @@
+#Title, h3 {
+	display:inline;
+}
+
+#Title {
+	color: #FF0000;
+}
+
+header {
+	padding-bottom: 25px;
+}
+
+h3 {
+	color: #8D8888;
+	font-family: Arial;
+}
+
+.col-2 {
+	border-color:#FFFFFF;
+	width: 10%;
+	height: 50px;
+	float: left;
+	padding: 15px 15px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: .5px;
+	box-sizing: border-box;
+}
+
+.Date {
+	color: #808080;
+	font-family: font-family: 'Poiret One', cursive; 
+}
+
+.Headline {
+	color:#808080;
+	font-family:;
+}
+
+.Section_One {
+	max-width: 670px;
+	float: left;
+}
+
+.Section_Two {
+	max-width:670px;
+	float:left;
+}
+
+.First_Image {
+	width:670px;
+	height:475px;
+}
+.sidebar{
+	float: right;
+	max-width: 300px;
+}
+
+
+
+
+footer {
+	color: #FF0000;
+}
+
