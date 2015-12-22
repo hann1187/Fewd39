@@ -19,9 +19,10 @@ header {
 	background-color: #808080;
 	padding-top: 5px;
 }
-
+nav {
+	float: right;
+}
 nav a {
-	float:right;
 	position:relative;
 	margin: 10px;
 	color: #000000;

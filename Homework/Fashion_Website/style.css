@@ -17,7 +17,7 @@ h3 {
 
 .col-2 {
 	border-color:#FFFFFF;
-	width: 10%;
+	width: 16%;
 	height: 50px;
 	float: left;
 	padding: 15px 15px;
@@ -26,6 +26,7 @@ h3 {
 	color: #FFFFFF;
 	margin: .5px;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .Date {
@@ -40,26 +41,25 @@ h3 {
 
 .Section_One {
 	max-width: 670px;
-	float: left;
 }
 
 .Section_Two {
 	max-width:670px;
-	float:left;
 }
 
 .First_Image {
-	width:670px;
-	height:475px;
+	/*width:670px;
+	height:475px;*/
 }
 .sidebar{
 	float: right;
-	max-width: 300px;
+	max-width: 33%;
 }
 
-
-
-
+section {
+	float:left;
+	max-width: 65%;
+}
 footer {
 	color: #FF0000;
 }
