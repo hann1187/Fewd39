@@ -1,5 +1,6 @@
 #Title, h3 {
 	display:inline;
+	margin-left: 20px;
 }
 
 #Title {
@@ -15,25 +16,26 @@ h3 {
 	font-family: Arial;
 }
 
-.container {
+#container {
 	border-color:#FFFFFF;
 	width: 100%;
 	height: 50px;
-	padding: 15px 15px;
 	background-color: #000000;
 	margin: .5px;
 	box-sizing: border-box;
 }
 
-.nav_links a {
+#nav_links a {
 	color:#FFFFFF;
 	text-decoration: none;
 	display:inline;
+	width: 16.66%;
 }
 
 .Date {
 	color: #808080;
-	font-family: font-family: 'Poiret One', cursive; 
+	font-family: font-family: 'Poiret One', cursive;
+	font-size: 25px; 
 }
 
 .Headline {
@@ -41,29 +43,20 @@ h3 {
 	font-family:;
 }
 
-.Section_One {
-	max-width: 670px;
-}
-
-.Section_Two {
-	max-width:670px;
-}
-
 .First_Image {
-	width:670px;
-	height:475px;
+	width: 670px;
 }
 .sidebar{
 	float: right;
-	max-width: 25%;
-	margin-right: 10px;
+	max-width: 30%;
 }
 
 section {
 	float:left;
-	max-width: 65%;
+	max-width:60%;
 }
 footer {
+	width:100%;
 	color: #FF0000;
 	text-decoration: none;
 }
@@ -74,6 +67,11 @@ footer {
 h2 {
 	color: #808080;
 }
-.sidebar_bottom li {
+.sidebar_bottom {
 	color:#FF0000;
+}
+.advertisement {
+	width:85%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
