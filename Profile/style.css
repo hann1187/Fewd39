@@ -44,11 +44,11 @@ a{
 .Main, h1 {
 	font-size: 125%;
 	font-weight: bold;
-	font-style:underline;
 }
 
 .Classwork {
 	padding-top: 75px;
+	margin-bottom: 10px;
 }
 body {
 	background-image: url("images/salmon.jpg");
