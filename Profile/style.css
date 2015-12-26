@@ -6,19 +6,24 @@
 }
 
 header {
-	background-color: #808080;
+	background-image: url("images/heart.jpg");
 	padding-top: 5px;
 	height: 200px;
 	text-align:center;
 	border: 5px solid #000000;
+	background-repeat: inherit;
 }
 
-header, h1 {
-	font-size: 150%;
+header h1 {
+	font-size: 600%;
+	font-weight: bold;
+	text-shadow: 5px 5px #FFFFFF;
+	padding-bottom: 20px;
 }
+
 #Sidebar {
 	float:right;
-	border: 3px solid #808080;
+	border: 3px dashed #000000;
 	width: 300px;
 	height: 500px;
 	text-align: center;
@@ -28,6 +33,7 @@ header, h1 {
 }
 a{
 	text-decoration: none;
+	color:#000000;
 }
 .Main {
 	float:left;
@@ -37,8 +43,13 @@ a{
 
 .Main, h1 {
 	font-size: 125%;
+	font-weight: bold;
+	font-style:underline;
 }
 
 .Classwork {
 	padding-top: 75px;
+}
+body {
+	background-image: url("images/salmon.jpg");
 }
