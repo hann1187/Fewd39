@@ -1,40 +1,34 @@
 h1 {
 	font-family:'Oswald', sans-serif;
+	color:#000000;
+	padding-bottom: 2%;
 }
 
 h2 {
 	font-family: 'Dancing Script', cursive;
 	font-size:150%;
 	color: #4B1048;
-	text-align: center;
 }
 
-header .profile {
-	width: 100%;
-	height: 50%;
-	z-index: 0;
+#Photo {
+	border:5px solid #000000;
+	max-width: 250px;
+	max-height: auto;
 }
 
 header {
 	background-color: #808080;
 	padding-top: 5px;
 }
-nav {
-	float: right;
-}
-nav a {
-	position:relative;
-	margin: 10px;
-	color: #000000;
-}
 
-.sidebar {
-	float: right;
-	display: block;
-	border: black solid 2px;
-}
-
-.button1 {
-	position:relative;
+#Sidebar {
+	float:right;
+	border: 3px solid #000000;
+	width: 300px;
+	height: 500px;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-top:20px;
 }
 	
