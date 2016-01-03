@@ -24,3 +24,9 @@ tr:nth-child(7) {
 td:last-of-type {
 	background-color: #808080;
 }
+a[href="/asyoulikeit/"] {
+	color:#FF9900;
+}
+a[href="hamlet.pdf"] {
+	font-size: 150%;
+}

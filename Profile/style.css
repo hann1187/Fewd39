@@ -1,4 +1,7 @@
-
+.Title{
+	font-style: bold;
+	padding-bottom: 20px;
+}
 #Photo {
 	border:5px solid #000000;
 	max-width: 250px;
@@ -19,6 +22,7 @@ header h1 {
 	font-weight: bold;
 	text-shadow: 5px 5px #FFFFFF;
 	padding-bottom: 20px;
+	float:center;
 }
 
 #Sidebar {
@@ -45,10 +49,12 @@ a{
 	font-size: 125%;
 	font-weight: bold;
 }
-
+.Homeowork{
+	margin-top: 30px;
+}
 .Classwork {
-	padding-top: 75px;
+	margin-top: 10px;
 }
 body {
-	background-image: url("images/salmon.jpg");
+	background-image: url("images/streak.jpg");
 }
