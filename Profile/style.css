@@ -38,6 +38,7 @@ header h1 {
 a{
 	text-decoration: none;
 	color:#000000;
+	font-size: 125%;
 }
 .Main {
 	float:left;
@@ -45,16 +46,17 @@ a{
 	margin-top: 50px;
 }
 
-.Main, h1 {
-	font-size: 125%;
-	font-weight: bold;
+.Main h1 {
+	font-size: 150%;
+	font-weight:bold;
+	font-family: 'Cinzel', serif;
 }
-.Homeowork{
-	margin-top: 30px;
-}
-.Classwork {
-	margin-top: 10px;
-}
+
 body {
 	background-image: url("images/streak.jpg");
+}
+a:hover {
+	font-size: larger;
+	font-weight: bold;
+	color:#afeeee;
 }
