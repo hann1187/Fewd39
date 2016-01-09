@@ -12,13 +12,7 @@
 tr:first-of-type {
 	background-color: #808080;
 }
-tr:nth-child(3) {
-	background-color: #808080;
-}
-tr:nth-child(5) {
-	background-color: #808080;
-}
-tr:nth-child(7) {
+tr:nth-child(odd) {
 	background-color: #808080;
 }
 td:last-of-type {
