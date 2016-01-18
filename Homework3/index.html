@@ -1,6 +1,7 @@
 <!DOCTYPE>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jumbotron</title>
     <meta charset="UTF-8">
 	<!-- Latest compiled and minified CSS -->
@@ -8,82 +9,116 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- custom css -->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-  <div class="container">
-	 <div class="row">
-  	<div class="col-md-8 col-md-offset-4">
-    <h3>News</h1>
-  	<div class="row">
-		<ul class="nav nav-pills pull-right">
-			<li role="presentation" class="active"><a href="http://www.nbcnews.com/">NBCnews</a>
-			</li>
-			<li role="presentation"><a href="http://abcnews.go.com/">ABCnews</a></li>
-			<li role="presentation"><a href="http://www.cnn.com/">BBCnews</a></li>
-		</ul>
-	</div>
-<hr>
-  <div class="jumbotron">
-  	<h1>News</h1>
-  		<p>Easy access to top stories and links that let you know what is happening in our nation and world</p>
-  		<p><a class="btn btn-success btn-lg" href="#" role="button">Button</a></p>
-  </div>
+<div class="container-fluid">
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project Name</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> <!-- End of Navigation Bar -->
+
+<!-- Left Column -->
+<div class="col-xs-6 col-md-8">
+  <!-- Jumbotron -->
   <div class="row">
-	<div class="col-md-4"</div>
-  <h2>Powerball Winners</h2>
-      <p>The owners of the first of three Powerball jackpot winning tickets have been publicly confirmed as John and Lisa Robinson. Their winning ticket was purchased at Naifeh's Food Mart in the small town of Munford, Tennessee.</p>
-      <p><a class="btn btn-default" href="http://abcnews.go.com/US/powerball-lottery-jackpot-winners-confirmed/story?id=36318714" role="button">View details...</a></p>
+    <div class="jumbotron">
+    	<h1>News</h1>
+    		<p>Easy access to top stories and links that let you know what is happening in our nation and world</p>
+    		<p><a class="btn btn-success btn-lg" href="#" role="button">Button</a></p>
+    </div>
   </div>
+  <!-- Row #1 -->
+  <div class="row">
+    <div class="col-md-4"</div>
+    <h2>Powerball Winners</h2>
+        <p>The owners of the first of three Powerball jackpot winning tickets have been publicly confirmed as John and Lisa Robinson. Their winning ticket was purchased at Naifeh's Food Mart in the small town of Munford, Tennessee.</p>
+        <p><a class="btn btn-default" href="http://abcnews.go.com/US/powerball-lottery-jackpot-winners-confirmed/story?id=36318714" role="button">View details...</a></p>
+    </div>
+
   <div class="col-md-4"</div>
-  <h2>New Bird Flu Virus</h2>
+      <h2>New Bird Flu Virus</h2>
       <p>A new strain of bird flu virus called H7N8 has been found at an Indiana poultry farm — the first case of avian influenza at a poultry farm since last year's devastating multi-state outbreak.</p>
       <p><a class="btn btn-default" href="http://www.nbcnews.com/health/health-news/new-bird-flu-virus-strain-shuts-down-indiana-turkey-farm-n497531" role="button">View details...</a></p>
   </div>
+
   <div class="col-md-4"</div>
-  <h2>Oil Prices/Stock Market</h2>
+      <h2>Oil Prices/Stock Market</h2>
       <p>Plunging oil prices pounded U.S. stock markets again on Friday, with the Dow Jones industrial average closing down nearly 400 points, or more than 2 percent, and the other indices taking similar beatings..</p>
       <p><a class="btn btn-default" href="http://www.nbcnews.com/business/markets/u-s-stock-market-dow-plunges-oil-prices-spiral-lower-n497276" role="button">View details...</a></p>
   </div>
-    <!-- Row 2 -->
+</div> <!-- End of Row #1 -->
+<!-- Row 2 -->
+<div class="row">
   <div class="col-md-4"</div>
-  <h2>Marine Helicopters Coolide off Oahu</h2>
-      <p>Two Marine Corps helicopters carrying six crew members each collided and went down off the Hawaiian island of Oahu while on a nighttime training mission, and rescuers searched choppy waters Friday where debris had been sighted, military officials said.</p>
-      <p><a class="btn btn-default" href="http://abcnews.go.com/US/wireStory/coast-guard-marine-helicopters-collide-off-hawaiis-oahu-36310170" role="button">View details...</a></p>
+    <h2>Marine Helicopters Coolide off Oahu</h2>
+        <p>Two Marine Corps helicopters carrying six crew members each collided and went down off the Hawaiian island of Oahu while on a nighttime training mission, and rescuers searched choppy waters Friday where debris had been sighted, military officials said.</p>
+        <p><a class="btn btn-default" href="http://abcnews.go.com/US/wireStory/coast-guard-marine-helicopters-collide-off-hawaiis-oahu-36310170" role="button">View details...</a></p>
+    </div>
+
+    <div class="col-md-4"</div>
+    <h2>Bus Crash in Delaware</h2>
+        <p>Excessive speed and lack of traffic signs warning of an approaching curve were likely the causes of a 2014 tour bus crash in Delaware that killed three people and injured dozens, according to a federal report released Friday.</p>
+        <p><a class="btn btn-default"href="http://abcnews.go.com/US/wireStory/ntsb-excessive-speed-caused-fatal-delaware-bus-crash-36324931" role="button">View details...</a></p>
+    </div>
+
+    <div class="col-md-4"</div>
+    <h2>4,000 Artifacts Stored in Oregon</h2>
+        <p>Thousands of archaeological artifacts — and maps detailing where more can be found — are kept inside the national wildlife refuge buildings currently being held by an armed group of protestors angry over federal land policy.</p>
+        <p><a class="btn btn-default" href="http://abcnews.go.com/US/wireStory/4000-artifacts-stored-oregon-refuge-held-armed-group-36306236" role="button">View details...</a></p>
+    </div> <!-- End of Row #2 -->
   </div>
-  <div class="col-md-4"</div>
-  <h2>Bus Crash in Delaware</h2>
-      <p>Excessive speed and lack of traffic signs warning of an approaching curve were likely the causes of a 2014 tour bus crash in Delaware that killed three people and injured dozens, according to a federal report released Friday.</p>
-      <p><a class="btn btn-default"href="http://abcnews.go.com/US/wireStory/ntsb-excessive-speed-caused-fatal-delaware-bus-crash-36324931" role="button">View details...</a></p>
+</div> <!-- End of Left Column -->
+
+<!-- Right Column -->
+  <div class="col-md-4 ">
+
+      <div class="list-group">
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+          <a href="#" class="list-group-item">Link</a>
+      </div>
   </div>
-  <div class="col-md-4"</div>
-  <h2>4,000 Artifacts Stored in Oregon</h2>
-      <p>Thousands of archaeological artifacts — and maps detailing where more can be found — are kept inside the national wildlife refuge buildings currently being held by an armed group of protestors angry over federal land policy.</p>
-      <p><a class="btn btn-default" href="http://abcnews.go.com/US/wireStory/4000-artifacts-stored-oregon-refuge-held-armed-group-36306236" role="button">View details...</a></p>
-  </div>
-  <div class="col-md-2 sidebar">
-  <div class="col-xs-6 col-md-3">
-        <div class="list-group">
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-        </div>
-  </div>
-<hr>
+</div> <!-- Container Ends -->
+
+<!-- Footer -->
 <footer>
-	<p>@ 2015 Company, Inc.</p>
+  <div class="row">
+	 <p>&copy; 2015 Company, Inc.</p>
+  </div>
 </footer>
 
-</div>
-</div>
-</div>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
