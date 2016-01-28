@@ -36,7 +36,6 @@ while (i<=20) {
 
 }
 
-
 // This is Homework part 2: function Max
 
 var num1 = 6;
