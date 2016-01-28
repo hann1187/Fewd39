@@ -47,7 +47,7 @@ function checkWin() {
 	for (var i=0; i<=7; i++) {
 		if (fullSet[i][0] !== "" && fullSet[i][1] !== "" && fullSet[i][2] !== "" && fullSet[i][0] === fullSet[i][1] && fullSet[i][0] === fullSet[i][2]) {
 			//Create an alert here with the currentTurn + "Wins!". An example may be "X Wins!" or "O Wins!"
-		alert("currentTurn + Wins!");
+		alert("currentTurn +)- Wins!");
 		}
 	}
 }
