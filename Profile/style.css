@@ -40,38 +40,45 @@
 .container1 {
 	background-color: #FFEFD5;
 	height:350px;
-	width:50%;
+	width:33.3%;
 	float: left;
 	text-align: center;
 }
 .container2 {
 	background-color: #FFE4B5;
 	height:350px;
-	width:50%;
+	width:33.3%;
 	float: left;
 	text-align: center;
+}
+.container3 {
+	float: left;
+	width:33.3%;
+	height:350px;
+	text-align:center;
+	background-color: #FFEFD5;
 }
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: #A0522D;
 }
-.col-6 {
+.col-4 {
 	font-family:'Quattrocento', serif;
 	padding-top: 10px;
 }
-.col-6 ul {
+.col-4 ul {
 	list-style-type: none;
 }
-.col-6 a {
+.col-4 a {
 	text-decoration: none;
 	color: #666666;
 }
-.col-6 a:hover {
+.col-4 a:hover {
 	color: #A0522D;
 	font-weight: bold;
 }
-.col-6 li {
+.col-4 li {
 	margin-top: 10px;
 }
 
