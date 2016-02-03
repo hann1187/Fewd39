@@ -42,6 +42,45 @@ button { background-color: #58c0f5; color: white; border-radius: 3px; }
 </table>
 
 <script>
+// step one:dom selecting
+var box1 = document.querySelector(".first-operand");
+var box2 = document.querySelector(".second-operand");
+var answer = document.querySelector(".result");
 
-// Your code goes here.
+// step two: functions for the 4 operations.
+// 2.1 Event listeners first.
+document.querySelector(".add-button").addEventListener("click",addition);
+function addition () {
+  box1 = parseInt(box1.value);
+  box2 = parseInt(box2.value);
+  console.log("box1 is " + box1 + " and box2 is " + box2);
+  answer.value = box1 + box2;
+}
+
+document.querySelector(".subtract-button").addEventListener("click",subtraction);
+function subtraction () {
+  // alert("Subtraction has been called on");
+  box1 = parseInt(box1.value);
+  box2 = parseInt(box2.value);
+  console.log("box1 is" - box1 " and box2 is" - box2);
+  answer.value = box1 - box2;
+}
+
+document.querySelector(".multiply-button").addEventListener("click",multiplication);
+function multiplication() {
+  // alert("Multiplication has been called on");
+  box1 = parseInt(box1.value);
+  box2 = parseInt(box2.value);
+  console.log("box1 is" * box2 "and box2 is" * box2);
+  answer.value= box1*box2;
+}
+
+document.querySelector(".divide-button").addEventListener("click",division);
+function division () {
+// alert("Division has been called on");
+box1 = parseInt(box1.value);
+box2 = parseInt (box2.value;)
+console.log ("box1 is" / box2 "and box2 is" / box2)
+answer=box1/box2;
+}
 </script>

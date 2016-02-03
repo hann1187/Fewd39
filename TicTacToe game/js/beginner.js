@@ -1,5 +1,5 @@
 //Declare a variable called currentTurn and set it equal to "O"
-var currentTurn="0";
+var currentTurn="O";
 
 var spaces = document.getElementsByTagName("td");
 
@@ -22,7 +22,7 @@ for (var i=0; i<=8; i++) {
 		} else {
 			return false;
 		}
-	});
+		})
 }
 
 function checkWin() {
@@ -44,10 +44,10 @@ function checkWin() {
 	var fullSet = [rowA, rowB, rowC, colA, colB, colC, diagA, diagB];
 
 	//Write the beginning of a FOR loop from 0 to 7 inclusive
-	for (var i=0; i<=7; i++) {
+	for (var i=0; fullSet.length; i++) {
 		if (fullSet[i][0] !== "" && fullSet[i][1] !== "" && fullSet[i][2] !== "" && fullSet[i][0] === fullSet[i][1] && fullSet[i][0] === fullSet[i][2]) {
-			//Create an alert here with the currentTurn + "Wins!". An example may be "X Wins!" or "O Wins!"
-		alert("X Wins!");
+	//Create an alert here with the currentTurn + "Wins!". An example may be "X Wins!" or "O Wins!"
+		alert(currentTurn + " Wins!");
 		}
 	}
 }
