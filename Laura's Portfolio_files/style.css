@@ -1,0 +1,37 @@
+/*style for the Navbar*/
+.navbar {
+	background-color: #808080;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-decoration: none;
+}
+li a {
+	color: #FFFFFF;
+	float: right;
+	padding: 14px 16px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 125%;
+}
+li a:hover {
+	background-color: #C71585;
+}
+/*Style for the Navbar ends*/
+
+#container1 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#container1 h1 {
+	text-align: center;
+	padding: 20px 50px;
+}
+#description p {
+	text-align: center;
+	
+}

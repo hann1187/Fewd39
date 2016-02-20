@@ -1,0 +1,87 @@
+/*same nav bar styling features*/
+body {
+	background-color:#000000;
+}
+.navbar {
+	background-color: #808080;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-decoration: none;
+}
+li a {
+	color: #FFFFFF;
+	float: left;
+	padding: 14px 16px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 125%;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #C71585;
+}
+/*navbar ends*/
+#introduction {
+	text-align: center;
+	color: #FFFFFF;
+	margin-right: 100px;
+	margin-left:100px;
+}
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}/*
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}*/
+#footer {
+	background : #333;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+}
+#footer a:hover {
+	color:#C71585;
+	font-size: 125%;
+	font-weight: bold;
+}
+#footer a {
+	color:#FFF;
+	text-decoration: none;
+	position:center;
+}
+/*stylling*/
+
+
