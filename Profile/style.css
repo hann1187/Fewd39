@@ -1,35 +1,25 @@
 
 #img {
-    background-image: url(Profile/images/laptop.png);
+	position: relative;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     width: 100%;
     height: 100%;
 }
+.container h1{
+	position:absolute;
+	left: 40px;
+	bottom: 550px;
+	color: #D3D3D3;
+	font-family: 'Quintessential', cursive;
+
+}
 .nav {
-	height:61px;
+	height:40px;
 	width:100%;
-	background-color: #ccc7c7;
+	background-color: #D3D3D3;
 }
 
-.nav li {
-    list-style-type: none;
-    float: left;
-    margin-left: 30px;
-    margin-right: 10px;
-    font-size: 125%;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 5px;
-}
-.nav a {
-    text-decoration: none;
-    color:#000000;
-
-}
-.nav a:hover {
-	color:#FFFFFF;
-}
 #name {
 	float: left;
 }
@@ -81,4 +71,8 @@ h1 {
 .col-4 li {
 	margin-top: 10px;
 }
-
+.footer {
+	height:5%;
+	width:100%;
+	background-color: #D3D3D3;
+}
